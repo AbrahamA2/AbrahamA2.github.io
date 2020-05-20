@@ -1,5 +1,14 @@
 body {
-	background-color: #AEC6CF;
+	background-color: #b3ecff;
+	font-family: Gabriela, Arial, Sans-Serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	margin: 0;
 }
 
 #container {
@@ -16,4 +25,37 @@ body {
 	background-color: #ADD8E6;
 	color: white;
 	text-align: center;
+	padding: 10px;
+}
+
+#content {
+	padding: 10px;
+}
+
+#nav {
+	width = 180px;
+	float: left;
+}
+
+#main {
+	width= 600 px;
+	float: right;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: light pink;
+	color:white;
+	text-align: center
+}
+
+#nav ul {
+	list-style-type: none
+	padding: 0;
+}
+
+
+#nav .selected {
+	font-weight: bold;
 }
