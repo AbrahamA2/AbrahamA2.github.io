@@ -1,4 +1,19 @@
+body {
+	background-color: #AEC6CF;
+}
+
+#container {
+	background-color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
 #header {
 
 	background-color: #ADD8E6;
+	color: white;
+	text-align: center;
 }
