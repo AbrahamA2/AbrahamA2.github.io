@@ -13,7 +13,7 @@ h1, h2, h3 {
 
 #container {
 	background-color: white;
-	width: 1000px;
+	width: 5000px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -45,7 +45,7 @@ h1, h2, h3 {
 #footer {
 	clear: both;
 	padding: 10px;
-	background-color: pink;
+	background-color: #ffd1dc;
 	text-align: center
 }
 
