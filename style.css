@@ -33,14 +33,14 @@ h1, h2, h3 {
 }
 
 #nav {
-	width = 180px;
+	width = 90px;
 	float: left;
 }
 
 #main {
 	width= 400px;
 	text-align: center;
-	
+	padding: 20px;
 }
 
 #footer {
