@@ -5,7 +5,6 @@ body {
 
 a {
 	text-decoration: none;
-	font-size: 16px;
 }
 
 a :hover {
@@ -45,6 +44,12 @@ h1, h2 {
 	padding: 20px;
 }
 
+#deadlist {
+	width = 300px;
+	text-align: center;
+	padding: 20px;
+}
+
 #footer {
 	clear: both;
 	padding: 10px;
@@ -64,6 +69,6 @@ h1, h2 {
 
 li {
 	display: inline-block;
-	padding: 5px 145px;
+	padding: 0px 135px;
 	background-color: #d9f5ff;
 }
