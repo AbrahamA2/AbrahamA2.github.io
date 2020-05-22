@@ -7,7 +7,12 @@ a {
 	text-decoration: none;
 }
 
-h1, h2, h3 {
+a :hover {
+	color: #ffd1dc;
+	transition: 0.5s;
+}
+
+h1, h2 {
 	margin: 0;
 }
 
@@ -32,10 +37,6 @@ h1, h2, h3 {
 	padding: 10px;
 }
 
-#nav {
-	width = 10px;
-	
-}
 
 #main {
 	width= 300px;
@@ -51,11 +52,17 @@ h1, h2, h3 {
 }
 
 #nav ul {
-	list-style-type: none
+	list-style-type: none;
 	padding: 0;
 }
 
 
 #nav .selected {
 	font-weight: bold;
+}
+
+li {
+	display: inline-block;
+	padding: 0px 145px;
+	background-color: #d9f5ff;
 }
